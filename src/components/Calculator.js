@@ -1,4 +1,5 @@
-import PropTypes from 'prop-types';
+import Display from './Display';
+import InputValues from './InputValues';
 
 const Calculator = () => (
   <div className="container">
@@ -28,20 +29,5 @@ const Calculator = () => (
     />
   </div>
 );
-
-const Display = () => <div className="display">0</div>;
-
-const InputValues = ({ values }) => (
-  <div className="values">
-    {values.map((value) => (
-      <div key={value} className="value">
-        {value}
-      </div>
-    ))}
-  </div>
-);
-
-InputValues.defaultProps = { values: [] };
-InputValues.propTypes = { values: PropTypes.arrayOf(PropTypes.string) };
 
 export default Calculator;
