@@ -57,9 +57,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **A Functional Calculator**
+- **A working Calculator**
 - **Generate Math quotes**
-- **Functional Components**
+- **Use Functional Components**
+- **Implement lifecycle hooks**
 
 <!-- > Describe between 1-3 key features of the application. -->
 
