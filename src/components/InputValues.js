@@ -6,20 +6,20 @@ const InputValues = ({
 }) => {
   const onClickHandler = (value) => {
     const result = calculate(data, value);
-    console.log(result);
-
-    if (result.operation && !result.next) {
-      setData({ total: result.total, next: null, operation: result.operation });
-    } else if (result.operation && result.next) {
-      setData({
-        total: result.total,
-        next: result.next,
-        operation: result.operation,
-      });
+    setData({ ...result });
+    if (value === '=' || value === '+/-') {
+      setCurrentValue(result.total);
+      if (result.total === null) {
+        setCurrentValue(result.next);
+      }
+    } else if (value === 'AC') {
+      setCurrentValue('');
     } else {
-      setData({ ...data, next: result.next });
+      setCurrentValue(result.next);
+      if (result.next === null) {
+        setCurrentValue(result.operation);
+      }
     }
-    setCurrentValue(value);
   };
   return (
     <div className="values">
@@ -39,10 +39,8 @@ const InputValues = ({
 
 InputValues.defaultProps = { values: [] };
 InputValues.defaultProps = { data: {} };
-// InputValues.defaultProps = { currentValue: [] };
 InputValues.propTypes = { values: PropTypes.arrayOf(PropTypes.string) };
 InputValues.propTypes = { data: PropTypes.objectOf(PropTypes.string) };
-// InputValues.propTypes = { currentValue: PropTypes.arrayOf(PropTypes.string) };
 InputValues.propTypes = { setCurrentValue: PropTypes.func.isRequired };
 InputValues.propTypes = { setData: PropTypes.func.isRequired };
 

@@ -9,19 +9,6 @@ const Calculator = () => {
     next: null,
     operation: null,
   });
-
-  // if (result === null) {
-  //   setData(result);
-  // }
-
-  // if (currentValue === '') {
-  //   setData({ ...data, next: currentValue });
-  // }
-
-  // console.log(result);
-  console.log(data);
-
-  // console.log(currentValue);
   return (
     <div className="container">
       <Display currentValue={currentValue} />
