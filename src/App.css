@@ -1,6 +1,21 @@
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 60px;
+}
+
+.quote {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 20px;
+  font-weight: 300;
+  width: 30%;
+}
+
+.calculator {
+  width: 50%;
 }
 
 .display {
@@ -11,8 +26,6 @@
   background: #858694;
   border: rgb(230, 230, 230) 2px solid;
   padding: 30px;
-  margin: 0 2px;
-  width: 50%;
   align-self: center;
 }
 
@@ -23,7 +36,6 @@
   grid-column-gap: 0;
   grid-row-gap: 0;
   background: #f6f6f6;
-  width: 55%;
   align-self: center;
 }
 

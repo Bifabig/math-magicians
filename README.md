@@ -60,6 +60,7 @@
 - **Generate Math quotes**
 - **Use Functional Components**
 - **Implement lifecycle hooks**
+- **Use fetch api to generate quotes**
 
 <!-- > Describe between 1-3 key features of the application. -->
 
