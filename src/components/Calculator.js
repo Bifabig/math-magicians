@@ -9,8 +9,9 @@ const Calculator = () => {
     next: null,
     operation: null,
   });
+
   return (
-    <div className="container">
+    <div className="calculator">
       <Display currentValue={currentValue} />
       <InputValues
         data={data}
