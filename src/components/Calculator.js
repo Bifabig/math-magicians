@@ -34,7 +34,7 @@ const Calculator = () => {
       setIsLoading(false);
     };
     fetchData();
-  }, []);
+  }, [setQuotes, setIsLoading]);
 
   if (hasError) return <div>Something went wrong!</div>;
 
