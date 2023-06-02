@@ -16,7 +16,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -57,19 +56,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **A Functional Calculator**
+- **A working Calculator**
 - **Generate Math quotes**
-- **Functional Components**
+- **Use Functional Components**
+- **Implement lifecycle hooks**
 
 <!-- > Describe between 1-3 key features of the application. -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-Coming Soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
