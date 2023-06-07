@@ -1,24 +1,19 @@
-import './App.css';
-import Calculator from './components/Calculator';
-import Quotes from './components/Quotes';
-import QuotesApi from './components/QuotesApi';
+import './styles/App.scss';
+import { Routes, Route } from 'react-router-dom';
+import Home from './routes/Home';
+import Navbar from './components/Navbar';
+import Quote from './routes/Quote';
+import Calculator from './routes/Calculator';
 
 function App() {
-  const api = QuotesApi();
-  if (api.hasError) return <div>Something went wrong!</div>;
-  if (api.isLoading) return <div>Loading...</div>;
-
   return (
-    api.quotes && (
-      <div className="App">
-        <div className="container">
-          <div className="quote">
-            <Quotes quotes={api.quotes} />
-          </div>
-          <Calculator />
-        </div>
-      </div>
-    )
+    <Routes>
+      <Route path="/" element={<Navbar />}>
+        <Route index element={<Home />} />
+        <Route path="calculator" element={<Calculator />} />
+        <Route path="quote" element={<Quote />} />
+      </Route>
+    </Routes>
   );
 }
 

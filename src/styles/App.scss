@@ -1,0 +1,32 @@
+body {
+  margin: 20px;
+  background: #266867;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+  color: #f5913e;
+  -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+p {
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #f5913e;
+  text-decoration: none;
+}
+
+a:hover {
+  -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+}

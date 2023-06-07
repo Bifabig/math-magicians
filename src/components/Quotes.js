@@ -1,11 +1,14 @@
 import PropTypes from 'prop-types';
+import styles from '../styles/Quotes.module.scss';
 
 const Quotes = ({ quotes }) => (
-  <ul>
-    {quotes.map((item) => (
-      <li key={quotes[0]}>{item.quote}</li>
-    ))}
-  </ul>
+  <div className={styles.center}>
+    <ul>
+      {quotes.map((item) => (
+        <li key={quotes[0]}>{item.quote}</li>
+      ))}
+    </ul>
+  </div>
 );
 
 export default Quotes;
