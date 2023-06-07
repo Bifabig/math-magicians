@@ -61,6 +61,8 @@
 - **Use Functional Components**
 - **Implement lifecycle hooks**
 - **Use fetch api to generate quotes**
+- **Implement Routing using React Router**
+- **Style using CSS modules**
 
 <!-- > Describe between 1-3 key features of the application. -->
 
@@ -148,8 +150,7 @@ Github Pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Create a homepage**
-- **Create a math quotes page**
+- **Add about and contact page**
 
 <!-- > Mention future features. -->
 

@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
+import styles from '../styles/Display.module.scss';
 
 const Display = ({ currentValue }) => (
-  <div className="display">{currentValue}</div>
+  <div className={styles.display}>{currentValue}</div>
 );
 
 Display.defaultProps = { currentValue: '' };

@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
+import styles from '../styles/InputValues.module.scss';
 
 const InputValues = ({
   data, setData, setCurrentValue, values,
@@ -22,13 +23,13 @@ const InputValues = ({
     }
   };
   return (
-    <div className="values">
+    <div className={styles.values}>
       {values.map((value) => (
         <button
           onClick={() => onClickHandler(value)}
           type="button"
           key={value}
-          className="value"
+          className={styles.value}
         >
           {value}
         </button>
