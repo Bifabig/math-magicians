@@ -63,6 +63,7 @@
 - **Use fetch api to generate quotes**
 - **Implement Routing using React Router**
 - **Style using CSS modules**
+- **Unit testing using Jest testing snapshot**
 
 <!-- > Describe between 1-3 key features of the application. -->
 
@@ -146,11 +147,18 @@ Github Pages
 - Twitter: [@biftu94](https://twitter.com/biftu94)
 - LinkedIn: [Biftu Girma](https://www.linkedin.com/in/biftu-girma-3598a8126/)
 
+👤 **Dennis Owusu Prah**
+
+- GitHub: [@Bifabig](https://github.com/til2to)
+- LinkedIn: [Biftu Girma](https://www.linkedin.com/in/biftu-girma-3598a8126/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **Add about and contact page**
+- **Implement third part authentications**
+- **https://www.linkedin.com/in/dennis-owusu-prah-835888206/**
 
 <!-- > Mention future features. -->
 

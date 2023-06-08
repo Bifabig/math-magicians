@@ -5,7 +5,7 @@ const Quotes = ({ quotes }) => (
   <div className={styles.center}>
     <ul>
       {quotes.map((item) => (
-        <li key={quotes[0]}>{item.quote}</li>
+        <li key={item.id}>{item.quote}</li>
       ))}
     </ul>
   </div>
